@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>docker-intgration</artifactId>
+    <artifactId>devops-integration</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>docker-intgration</name>
     <description>docker-intgration</description>
@@ -36,6 +36,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>devops-integration</finalName>
     </build>
 
 </project>
